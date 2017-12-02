@@ -35,14 +35,9 @@
 		<repository>
 			<id>nexus</id>
 			<name>Releases</name>
-			<url>http://192.168.70.1:32768/repository/maven-releases/</url>
+			<url>http://http://34.210.239.70:8081/repository/maven-releases/</url>
 		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<name>Snapshot</name>
-			<url>http://192.168.70.1:32768/repository/maven-snapshots/</url>
-		</snapshotRepository>
-  	</distributionManagement>
+	</distributionManagement>
 	
 	<build>
     <plugins>
